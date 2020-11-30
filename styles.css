@@ -1,0 +1,102 @@
+body, .quiz-section {
+    background-image: url("images/diceglass.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quiz-genie{
+    color: green;
+    font-size: 2rem;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    text-shadow: 5px 5px gray;
+}
+
+h3, h4 {
+    color: rgba(219, 32, 32, 0.822);
+}
+
+.quiz-section{
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+    margin: 40px auto ;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: bold;
+    box-shadow: 5px 15px gray, 5px 15px gray ;
+    
+}
+.reset-btn{
+    background-color: rgb(5, 139, 0);
+    padding-left: 30px;
+    margin-top: 40px;
+    width: 100px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button {
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-color: #fff;
+    margin:  10px auto;
+    background-color: rgba(0, 0, 255, 0.39);
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+
+button:hover {
+    background-color: #555e7d;
+    
+  }
+  
+button:focus {
+    outline: none;
+  }
+
+footer{
+    text-align: center;
+    color: gray;
+} 
+
+a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: #fff;
+}
+@media (max-width: 1000px) {
+
+    .quiz-genie{
+        color: green;
+        font-style: oblique;
+        width: 50%;
+        margin: 0 auto;
+       
+    }
+    button {
+        width: 100%;
+        font-size: 0.6rem;  
+    }
+    .reset-btn{
+        padding-left: 33px;
+    }
+
+    h3, h4, p{
+        font-size: 0.7rem;
+    }
+    footer{
+        padding-top: 5px;
+    }
+}
